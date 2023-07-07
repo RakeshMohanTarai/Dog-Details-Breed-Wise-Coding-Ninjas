@@ -1,0 +1,138 @@
+body {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.breed-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#dog-breed {
+  width: 200px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #555;
+}
+
+#getImageBtn {
+  margin-left: 1rem;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: #6495ed;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+#getImageBtn:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#image-btn-container {
+  visibility: hidden; /* Hide the container by default */
+  margin: 2rem auto;
+  max-width: 600px;
+  height: auto;
+  border: 8px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+#dog-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#dog-img img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.navigation-btn-container {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.navigation-btn-container .btn {
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: #6495ed;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.navigation-btn-container .btn:first-child {
+  margin-right: 0.5rem;
+}
+
+.navigation-btn-container .btn:last-child {
+  margin-left: 0.5rem;
+}
+
+.navigation-btn-container .btn:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 1rem;
+  }
+
+  .breed-btn-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #dog-breed {
+    margin-bottom: 1rem;
+  }
+
+  #getImageBtn {
+    margin-left: 0;
+  }
+
+  #image-btn-container {
+    height: auto;
+    padding: 1rem;
+  }
+
+  #nextBtn {
+    margin-top: 1rem;
+    align-self: center;
+  }
+}
