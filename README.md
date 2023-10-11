@@ -11,7 +11,7 @@ Unleash your love for dogs with this delightful Dog Gallery project! Fetch adora
 - A paw-some way to satisfy your dog-loving heart! 🐕❤️
 
 🌐 **Access the Project**:
-- Hosted Link: [Dog Gallery Project](https://rakeshmohantarai.github.io/Dog-Gallery-Coding-Ninjas/) 🌍
+- Access the app: [Dog Gallery Project](https://rakeshmohantarai.github.io/Dog-Gallery-Coding-Ninjas/) 🌍
 - API Documentation: [Dog API Documentation](https://dog.ceo/dog-api/documentation/) 🐾
 
 🔧 **Tech Stack**:
