@@ -1,4 +1,4 @@
-# Dog Gallery Breed Wise 
+# Dog Gallery BreedWise 
 
 🐕 **Dog Gallery API Project** 📸
 
