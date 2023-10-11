@@ -1,12 +1,21 @@
-# Dog Details Breed Wise Coding Ninjas
-There are many dog lovers in this world. Two brothers Dave and David are also one of them.
+# Dog Gallery Breed Wise 
 
-They decided to build a website for such people and also thought about its functionality -
-1. Clicking on the 'Get Image' will get you a random image of a new breed only(i.e. you need to change the breed in the dropdown to make it work again.)
-2. Clicking on the 'Next' button will get you a new random image of the same breed.
+🐕 **Dog Gallery API Project** 📸
 
-Dave suggested to build an API for it and use it on the web page. Dave gave the documentation of this API to you and asked you to complete the web page.
+Unleash your love for dogs with this delightful Dog Gallery project! Fetch adorable canine images and explore sub-breeds using the Dog API, all powered by HTML, CSS, and JavaScript. 🐾
 
-Link for the API - https://dog.ceo/dog-api/documentation/ 
+🌟 **Key Features**:
+- Discover a vast collection of dog images 📷
+- Explore sub-breeds for detailed canine variety 🐶
+- User-friendly web interface with HTML and CSS 🖥️
+- A paw-some way to satisfy your dog-loving heart! 🐕❤️
 
-Hosted link :- https://rakeshmohantarai.github.io/Dog-Details-Breed-Wise-Coding-Ninjas/
+🌐 **Access the Project**:
+- GitHub Pages: [Dog Gallery Project](https://rakeshmohantarai.github.io/Dog-Gallery-Coding-Ninjas/) 🌍
+- API Documentation: [Dog API Documentation](https://dog.ceo/dog-api/documentation/) 🐾
+
+🔧 **Tech Stack**:
+- Front-end: HTML, CSS, JavaScript 💻
+- Data source: Dog API 🐾
+
+Embark on a virtual doggy adventure and experience the joy of our furry friends with this fetching project! 🐾🐩
