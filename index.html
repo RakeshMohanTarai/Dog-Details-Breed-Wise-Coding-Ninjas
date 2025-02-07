@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
-    <h1>Dog Details Breed Wise</h1>
+
+    <div class="title-container">
+        <h1>Pawsome Dog Gallery! 🐕</h1>
+        <div class="subtitle">Discover your new furry friend!</div>
+    </div>
+
     <div class="breed-btn-container">
         <select name="dogBreed" id="dog-breed"></select>
-        <button type="submit" class="btn" id="getImageBtn">Get Image</button>
+        <button type="submit" class="btn" id="getImageBtn">Show Me Cute Dogs! 🐶</button>
     </div>
 
     <div id="image-btn-container">
@@ -21,10 +25,28 @@
     </div>
 
     <div class="navigation-btn-container">
-        <button type="submit" class="btn" id="previousBtn"><< Back</button>
-        <button type="submit" class="btn" id="nextBtn">Next >></button>
+        <button type="submit" class="btn" id="previousBtn">← Previous Pup</button>
+        <button type="submit" class="btn" id="nextBtn">Next Pup →</button>
     </div>
-
+    <div class="floating-paw">🐾</div>
+    <div class="floating-paw">🐾</div>
+    <div class="floating-paw">🐾</div>
+    <div class="floating-paw">🐾</div>
+    <div class="floating-paw">🐾</div>
     <script src="index.js"></script>
+    <script>
+        $('#getImageBtn').click(function() {
+            $('#image-btn-container').addClass('visible');
+            $('.navigation-btn-container').addClass('visible');
+        });
+
+        $('.btn').click(function() {
+            $(this).addClass('loading');
+            setTimeout(() => {
+                $(this).removeClass('loading');
+            }, 1000);
+        });
+    </script>
+
 </body>
 </html>
